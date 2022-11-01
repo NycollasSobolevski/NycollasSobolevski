@@ -7,7 +7,7 @@ class SobreMim extends Desenvolvedor {
   work  = 'Bosch'
   local = 'Curitiba'
   
-  college = 'Instituto Federal do Paraná'
+  college = 'Instituto Federal do Paraná(Análise e Desenvolvimento de Sistemas)'
 }
 
 class Skills extends Desenvolvedor {
