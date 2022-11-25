@@ -16,6 +16,6 @@ class Skills extends Developer:
 ```
 
 <a href="https://github.com/jpsoares01">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=op7mus&&langs_count=3&theme=tokyonight&hide_langs_below=1" />
+<img height="150em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=op7mus&&langs_count=3&theme=swift&bg_color=DEG,fc466b,3f5efb&hide_langs_below=1"/>
 
-<img align='center' src="https://github-readme-stats.vercel.app/api?username=op7mus&show_icons=true&title_color=22347D&text_color=4469FC&icon_color=3856CC&bg_color=000000&cache_seconds=2300">
+<img height="150em" align='center' src="https://github-readme-stats.vercel.app/api?username=op7mus&show_icons=true&theme=swift&bg_color=DEG,3f5efb,fc466b&cache_seconds=2300"/>
