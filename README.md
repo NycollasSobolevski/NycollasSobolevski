@@ -1,3 +1,10 @@
+
+<div align="center">
+  <a href="">
+    <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="" width="400" height="280">
+  </a>
+</div>
+
 ```python
 from Developer import NycollasSobolevski
 
@@ -14,7 +21,8 @@ class Skills extends Developer:
   linguagens  = ['Python','C#','SQL','HTML','CSS']
 
 ```
-<div class="" style="align-items:center; display:flex; justify-content:center;">
+
+<div class="Satisticas" align="center">
   <a href="https://github.com/op7mus">
   <img height="150em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=op7mus&langs_count=3&theme=slateorange&title_color=000419&bg_color=DEG,fc466b,3f5efb&hide_langs_below=1"/>
 
