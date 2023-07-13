@@ -18,7 +18,8 @@ class About extends Developer:
 
 
 class Skills extends Developer:
-  linguagens  = ['Python','C#','SQL','HTML','CSS']
+  languages  = [ 'Python','C#','SQL','HTML','CSS' ]
+  frameworks = [ '.NET', 'Angular', 'Node.js' ]
 
 ```
 
