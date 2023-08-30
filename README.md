@@ -10,16 +10,18 @@ from Developer import NycollasSobolevski
 
 class About extends Developer:
   name  = 'Nycollas_Wenndy_Sobolevski'
-  age   = 19
+  age   =  19
   work  = 'Bosch'
   local = 'Curitiba'
   
-  college = 'Instituto Federal do Paraná(Análise e Desenvolvimento de Sistemas)'
+  college  = 'Instituto Federal do Paraná(Análise e Desenvolvimento de Sistemas)'
+  semester = 3
 
 
 class Skills extends Developer:
   languages  = [ 'Python','C#','SQL','HTML','CSS' ]
   frameworks = [ '.NET', 'Angular', 'Node.js' ]
+  databases  = [ 'SQL Server', 'MongoDB', 'MySQL' ]
 
 ```
 
