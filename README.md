@@ -10,7 +10,7 @@ from Developer import NycollasSobolevski
 
 class About extends Developer:
   name  = 'Nycollas_Wenndy_Sobolevski'
-  age   =  19
+  age   =  21
   work  = 'Bosch'
   local = 'Curitiba'
   
