@@ -15,7 +15,7 @@ class About extends Developer:
   local = 'Curitiba'
   
   college  = 'Instituto Federal do Paraná(Análise e Desenvolvimento de Sistemas)'
-  semester = 5
+  semester = 5/6
 
 
 class Skills extends Developer:
