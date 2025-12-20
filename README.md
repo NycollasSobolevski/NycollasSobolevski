@@ -6,17 +6,17 @@
 ```python
 from Developer import NycollasSobolevski
 
-class About extends Developer:
+class About extends NycollasSobolevski:
   name  = 'Nycollas_Wenndy_Sobolevski'
-  age   =  21
+  age   =  22
   work  = 'Bosch'
   local = 'Curitiba'
   
   college  = 'Instituto Federal do Paraná(Análise e Desenvolvimento de Sistemas)'
-  semester = 6/6
+  status = 'Complete'
 
 
-class Skills extends Developer:
+class Skills extends NycollasSobolevski:
   languages  = [ 'C#','SQL','HTML','CSS','Python' ]
   frameworks = [ '.NET', 'Angular', 'Node.js' ]
   databases  = [ 'SQL Server', 'MongoDB', 'MySQL' ]
