@@ -3,24 +3,37 @@
     <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="" width="400" height="280">
 </div>
 
-```python
-from Developer import NycollasSobolevski
+```C#
+using Developer;
 
-class About extends NycollasSobolevski:
-  name  = 'Nycollas_Wenndy_Sobolevski'
-  age   =  22
-  work  = 'Bosch'
-  local = 'Curitiba'
-  
-  college  = 'Instituto Federal do Paraná(Análise e Desenvolvimento de Sistemas)'
-  status = 'Complete'
+public class NycollasSobolevski : AboutDeveloper
+{
+    public string Name = "Nycollas Wenndy Sobolevski";
+    public int Age = 22;
+    public string Work  = "Robert Bosch LTDA";
+    public string Local = "Curitiba";
+    
+    public IEnumerable<Education> College =
+    [
+        new(){
+            Institution = "Instituto Federal do Paraná",
+            Course = "Análise e Desenvolvimento de Sistemas",
+            Status = "Complete"
+        },
+        new(){
+            Institution = "Faculdade Impacta",
+            Course = "Cyber Security MBA",
+            Status = "In Progress"
+        }
+    ];
 
-
-class Skills extends NycollasSobolevski:
-  languages  = [ 'C#','SQL','HTML','CSS','Python' ]
-  frameworks = [ '.NET', 'Angular', 'Node.js' ]
-  databases  = [ 'SQL Server', 'MongoDB', 'MySQL' ]
-
+    public Skills Skills = new()
+    {
+        Languages  = [ "C#", "TS", "SQL", "HTML", "CSS", "Python", "JS" ],
+        Frameworks = [ ".NET", "Angular", "Node.js" ],
+        Databases = [ "SQL Server", "MongoDB", "MySQL" ]
+    };
+}
 ```
 
 <div class="Satisticas" align="center">
