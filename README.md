@@ -18,12 +18,12 @@ public class NycollasSobolevski : AboutDeveloper
         new(){
             Institution = "Instituto Federal do Paraná",
             Course = "Análise e Desenvolvimento de Sistemas",
-            Status = "Complete"
+            Status = Status.COMPLETED
         },
         new(){
             Institution = "Faculdade Impacta",
             Course = "Cyber Security MBA",
-            Status = "In Progress"
+            Status = Status.IN_PROGRESS
         }
     ];
 
